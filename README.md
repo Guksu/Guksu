@@ -2,7 +2,7 @@
 
 프론트엔드를 중심으로 서비스를 개발하고 운영하는 프로덕트 엔지니어입니다.
 
-기획·디자인을 함께 검토하고, 의견이 있으면 레퍼런스를 찾아 제안합니다. 버그 재현에 어려움을 겪는 팀원을 위해 qa-recorder를 만들어 내부 어드민에 적용했습니다.
+기획·디자인을 함께 검토하고, 의견이 있으면 레퍼런스를 찾아 제안합니다.
 
 [포트폴리오](https://guksu.github.io/GuksuJip/) · [블로그](https://guksulog.com) · [yung3152@gmail.com](mailto:yung3152@gmail.com)
 
@@ -22,7 +22,7 @@
 |---|---|---|
 | **qa-recorder** | 오류가 발생한 화면 변화와 네트워크·콘솔 기록을 HTML 파일로 공유하는 QA 도구 | [데모](https://guksu.github.io/qa-recorder/) · [코드](https://github.com/Guksu/qa-recorder) · [npm](https://www.npmjs.com/package/qa-recorder) · [소개](https://guksu.github.io/GuksuJip/#/menu/qa-recorder) |
 | **FoldLab** | 폴더블 기기의 접힘·펼침·분할 상태를 재현하고 레이아웃을 검사하는 디버거 | [코드](https://github.com/Guksu/FoldLab) · [소개](https://guksu.github.io/GuksuJip/#/menu/foldlab) |
-| **NoodleLens** | 선택한 웹 요소의 DOM·스타일·크기를 바탕으로 AI에 질문하는 Chrome 확장 | [코드](https://github.com/Guksu/NoodleLens) · [소개](https://guksu.github.io/GuksuJip/#/menu/noodlelens) |
+| **NoodleLens** | DOM·계산된 스타일·레이아웃 측정값을 수집해 LLM의 분석 입력으로 구성하는 Chrome 확장 프로그램. 모델 호출 전 규칙 기반 검사를 수행하고, 응답 스트리밍·취소·재시도와 답변의 근거 식별자 검증을 구현했습니다. | [코드](https://github.com/Guksu/NoodleLens) · [소개](https://guksu.github.io/GuksuJip/#/menu/noodlelens) |
 | **builbook** | 회차별 원고와 인물·설정을 관리하는 웹소설 에디터. 데이터는 브라우저에 저장 | [서비스](https://builbook.vercel.app) · [코드](https://github.com/Guksu/builbook) · [소개](https://guksu.github.io/GuksuJip/#/menu/builbook) |
 | **video-encoder** | 서버에 파일을 올리지 않고 브라우저에서 영상을 압축하는 웹 앱 | [코드](https://github.com/Guksu/video-encoder) · [소개](https://guksu.github.io/GuksuJip/#/menu/video-encoder) |
 
@@ -30,7 +30,7 @@
 
 | 프로젝트 | 설명 | 링크 |
 |---|---|---|
-| **먹로그** | 연인·친구와 맛집의 사진·별점·메모를 지도에 모으는 기록 앱 | [App Store](https://apps.apple.com/kr/app/%EB%A8%B9%EB%A1%9C%EA%B7%B8-muklog/id6782955594) · [소개](https://guksu.github.io/GuksuJip/#/menu/muklog) |
+| **먹로그** | React Native·Supabase 기반 맛집 기록 앱. 공유 공간의 멤버십에 따라 데이터 접근을 제어하는 RLS 정책을 구성하고, Edge Functions에서 외부 API 인증과 호출 제한을 처리했습니다. | [App Store](https://apps.apple.com/kr/app/%EB%A8%B9%EB%A1%9C%EA%B7%B8-muklog/id6782955594) · [소개](https://guksu.github.io/GuksuJip/#/menu/muklog) |
 | **Been a While** | 칫솔 교체나 이불 빨래를 마지막으로 한 날짜와 경과 시간을 보는 iPhone 앱 | [앱 소개](https://guksu.github.io/beenawhile-site/) · [소개](https://guksu.github.io/GuksuJip/#/menu/been-a-while) |
 | **데일리디저트** | 디저트 사진을 캐릭터 스티커로 만들어 달력을 꾸미는 앱 | [소개](https://guksu.github.io/GuksuJip/#/menu/daily-dessert) |
 
